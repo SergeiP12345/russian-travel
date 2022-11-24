@@ -1,0 +1,42 @@
+.place {
+  margin: 0;
+  padding: 0;
+  max-width: 984px;
+  min-height: 660px;
+  display: grid;
+  margin-bottom: 80px;
+
+  grid-template-areas:
+    "title url "
+    "image paragraph";
+}
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    min-height: 535px;
+    margin-bottom: 73px;
+  }
+}
+@media (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    min-height: 700px;
+    margin-bottom: 50px;
+    grid-template-areas:
+      "title "
+      " url "
+      "image"
+      " paragraph";
+  }
+}

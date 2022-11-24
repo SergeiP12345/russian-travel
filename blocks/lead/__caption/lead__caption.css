@@ -1,0 +1,32 @@
+.lead__caption {
+  margin: 0;
+  padding: 0;
+  min-height: 14px;
+  max-width: 158px;
+  padding-left: 148px;
+  padding-top: 8px;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-style: normal;
+}
+
+@media (max-width: 1024px) {
+  .lead__caption {
+    padding-left: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

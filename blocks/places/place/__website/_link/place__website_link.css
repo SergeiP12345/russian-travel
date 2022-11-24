@@ -1,0 +1,16 @@
+.place__website_link {
+  margin: 0;
+  padding: 0;
+  max-width: 456;
+  min-height: 22px;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.place__website_link:hover {
+  opacity: 0.8;
+}

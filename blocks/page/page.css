@@ -1,0 +1,24 @@
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2c2f;
+  min-height: auto;
+  max-width: 1280px;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
+}

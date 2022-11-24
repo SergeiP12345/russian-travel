@@ -1,0 +1,11 @@
+.footer__grd {
+  margin: 0;
+  padding: 0;
+  max-width: 480px;
+}
+
+@media (max-width: 320px) {
+  .footer__grd {
+    max-width: 140px;
+  }
+}
