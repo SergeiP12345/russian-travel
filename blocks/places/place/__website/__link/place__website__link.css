@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website__link {
   margin: 0;
   padding: 0;
   max-width: 456;
@@ -11,6 +11,6 @@
   color: #ffffff;
 }
 
-.place__website_link:hover {
+.place__website__link:hover {
   opacity: 0.8;
 }
