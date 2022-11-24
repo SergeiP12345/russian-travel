@@ -11,7 +11,7 @@
 - Работа с медиазапросами
 - Создание адаптивного сайта
 
-[Ссылка на репозиторий на GitHub](https://github.com/SergeiP12345/russian-travel)
+[Ссылка на репозиторий на GitHub](https://sergeip12345.github.io/russian-travel/index.html)
 
 **Figma**
 
