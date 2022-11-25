@@ -1,6 +1,6 @@
 .cover__overlay {
   min-height: 740px;
-  min-width: 1184px;
+  max-width: 1184px;
   opacity: 0.3;
 }
 
@@ -12,19 +12,19 @@
 @media (max-width: 1024px) {
   .cover__overlay {
     min-height: 640px;
-    min-width: 1024px;
+    max-width: 1024px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__overlay {
     min-height: 480px;
-    min-width: 768px;
+    max-width: 768px;
   }
 }
 @media (max-width: 320px) {
   .cover__overlay {
     min-height: 200px;
-    min-width: 320px;
+    max-width: 320px;
   }
 }
