@@ -36,8 +36,6 @@
     grid-template-rows: repeat(6, 264px);
     gap: 16px;
     min-width: calc((100% - 15px) / 2);
-
-    gap: 18px;
     z-index: 2;
   }
 }
