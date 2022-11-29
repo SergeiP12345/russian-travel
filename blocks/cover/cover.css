@@ -1,21 +1,23 @@
 .cover {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   margin-top: 98px;
   max-width: 1184px;
   min-height: 740px;
   background-image: url(../../images/cover-trains.jpg);
-  margin-left: 48px;
-  margin-right: 48px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-origin: border-box;
+  object-fit: contain;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .cover {
+    margin: 0;
     margin-top: 92px;
     max-width: 1024px;
     min-height: 640px;
@@ -37,8 +39,6 @@
     margin-top: 66px;
     max-width: 320px;
     min-height: 200px;
-    margin-left: 0;
-    margin-right: 0;
     background-image: url(../../images/cover_poezd.png);
   }
 }

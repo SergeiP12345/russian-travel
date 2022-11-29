@@ -2,13 +2,11 @@
   margin: 0;
   padding: 0;
   max-width: 460px;
-  min-height: auto;
+
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   color: #ffffff;
-  grid-area: title;
-  align-self: end;
 }
 
 @media (max-width: 1024px) {
@@ -21,7 +19,8 @@
   .place__title {
     max-width: 340px;
     font-size: 42px;
-    line-height: 1.1;
+    line-height: 46px;
+    padding-top: 73px;
   }
 }
 
@@ -29,8 +28,11 @@
   .place__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 1.09;
-    margin-left: 16px;
-    margin-right: 16px;
+    line-height: 35px;
+    grid-row: 1;
+    grid-column: 1 / span2;
+    padding-left: 16px;
+    padding-top: 48px;
+    color: #ffffff;
   }
 }

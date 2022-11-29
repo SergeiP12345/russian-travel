@@ -3,40 +3,23 @@
   padding: 0;
   max-width: 560px;
   min-height: 152px;
-  position: absolute;
-  top: 245px;
-  right: 312px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.06;
+  line-height: 76px;
   text-align: center;
   color: #ffffff;
-  z-index: 2;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 785px) {
   .cover__title {
-    position: absolute;
-    top: 195px;
-    right: 232px;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover__title {
-    position: absolute;
-    top: 115px;
-    right: 104px;
+    font-size: calc(32px + (40 * 0.7) * ((90vw - 320px) / (785 - 320)));
   }
 }
 
 @media (max-width: 320px) {
   .cover__title {
-    position: absolute;
-    top: 33px;
-    right: 16px;
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 35px;
     max-width: 280px;
     min-height: 70px;
   }

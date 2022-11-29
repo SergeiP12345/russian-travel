@@ -7,8 +7,8 @@
   max-width: 1184px;
   min-height: 671px;
   display: grid;
-  grid-template-columns: 284px 284px 284px 284px;
-  grid-template-rows: 213px 213px 213px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  grid-template-rows: repeat(3, 213px);
   gap: 16px;
 }
 
@@ -17,9 +17,11 @@
     max-width: 928px;
     min-height: 942px;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 225px 225px 225px 225px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    grid-template-rows: repeat(4, 225px);
     gap: 14px;
+
+    min-width: calc((100% - 14px) / 3);
   }
 }
 
@@ -30,23 +32,26 @@
     min-height: 1664px;
     margin-left: 24px;
     margin-right: 24px;
-    display: grid;
-    grid-template-columns: 352px 352px;
-    grid-template-rows: 264px 264px 264px 264px 264px 264px;
+    grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
+    grid-template-rows: repeat(6, 264px);
     gap: 16px;
+    min-width: calc((100% - 15px) / 2);
+
+    gap: 18px;
+    z-index: 2;
   }
 }
 
 @media (max-width: 320px) {
   .photo-grid {
     margin-top: 64px;
-    max-width: 320px;
+    max-width: 288px;
     min-height: 2724px;
     margin-left: 16px;
     margin-right: 16px;
     display: grid;
-    grid-template-columns: 288px;
-    grid-template-rows: 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px 216px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+    grid-template-rows: repeat(12, 216px);
     gap: 12px;
   }
 }
