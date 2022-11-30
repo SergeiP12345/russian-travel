@@ -18,7 +18,8 @@
     min-height: 264px;
   }
 }
-@media (max-width: 320px) {
+
+@media (max-width: 360px) {
   .photo-grid__item {
     max-width: 288px;
     min-height: 216px;

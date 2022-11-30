@@ -25,6 +25,8 @@
   .place__image {
     max-width: 320px;
     min-height: 320px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
 
@@ -34,7 +36,5 @@
     width: 100%;
     grid-row: 4;
     grid-column: 1 / span2;
-    margin-top: 32px;
-    margin-bottom: 32px;
   }
 }
