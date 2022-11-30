@@ -26,5 +26,6 @@
     grid-template-columns: minmax(320px, max-content);
     column-gap: 1px;
     row-gap: 1px;
+    margin-bottom: 50px;
   }
 }

@@ -8,6 +8,7 @@
   padding-right: 48px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
@@ -23,7 +24,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 320px) {
   .header {
     max-width: 288px;
     padding-top: 16px;

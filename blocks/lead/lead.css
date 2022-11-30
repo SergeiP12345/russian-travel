@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0;
   max-width: 984px;
-  padding-top: 56px;
+  margin-top: 56px;
   display: flex;
   flex-direction: column;
 }
@@ -10,20 +10,17 @@
 @media (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    min-height: 962px;
-    padding-top: 48px;
+    margin-top: 48px;
   }
 }
 @media (max-width: 768px) {
   .lead {
     max-width: 768px;
-    min-height: 862px;
   }
 }
 
 @media (max-width: 320px) {
   .lead {
     max-width: 320px;
-    min-height: 406px;
   }
 }
