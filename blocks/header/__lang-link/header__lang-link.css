@@ -9,13 +9,10 @@
   text-align: right;
   color: #ffffff;
   margin-right: 18px;
+  text-decoration: none;
 }
 .header__lang-link:last-child {
   margin-right: 0;
-}
-
-.header__lang-link {
-  text-decoration: none;
 }
 
 @media (max-width: 320px) {
@@ -29,6 +26,6 @@
   text-decoration: underline;
 }
 
-.header__lang-link_active_check {
+.header__lang-link_active_check:checked {
   text-decoration: underline;
 }
