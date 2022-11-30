@@ -23,6 +23,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .lead__title {
+    line-height: 60px;
+  }
+}
+
 @media (max-width: 350px) {
   .lead__title {
     line-height: 44px;
