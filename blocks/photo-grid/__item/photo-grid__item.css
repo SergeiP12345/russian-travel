@@ -19,7 +19,14 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
+  .photo-grid__item {
+    width: 100%;
+    min-height: 216px;
+  }
+}
+
+@media (max-width: 320px) {
   .photo-grid__item {
     max-width: 288px;
     min-height: 216px;

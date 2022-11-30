@@ -14,9 +14,13 @@
           src="./images/header-logo.svg"
           alt="Логотип Россия"
         />
-        <div>
-          <a class="header__lang-link" href="#">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
+        <div class="header__lang-links">
+          <a
+            class="header__lang-link header__lang-link_active header__lang-link_active_check"
+            href="#"
+            >Ru</a
+          >
+          <a class="header__lang-link header__lang-link_active" href="#">En</a>
         </div>
       </header>
 
@@ -28,13 +32,14 @@
         <img
           class="lead__image"
           src="./images/lead-polka.jpg"
-          alt="Женщина лежит на полке в поезде"
+          alt="Женщина лежит
+        на полке в поезде"
         />
-        <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
+        <p class="lead__caption">ВАША ПОЛКА &mdash; ВЕРХНЯЯ</p>
       </section>
 
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели</h2>
+        <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
           36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
@@ -47,11 +52,22 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+          <li>
+            <span class="intro__span-accent"
+              >Объектов природного наследия ЮНЕСКО</span
+            >
+            12
+          </li>
+          <li>
+            <span class="intro__span-accent"
+              >Объектов культурного наследия ЮНЕСКО </span
+            >16
+          </li>
+          <li>
+            <span class="intro__span-accent">Природных заповедников</span> 105
+          </li>
+          <li><span class="intro__span-accent">Аэропортов </span>241</li>
         </ul>
       </section>
 
@@ -119,8 +135,8 @@
       </section>
 
       <section class="places">
-        <div class="place">
-          <h2 class="place__title">Куршская &nbsp;коса</h2>
+        <article class="place">
+          <h2 class="place__title">Куршская коса</h2>
           <img
             class="place__image"
             src="./images/place-kosa.jpg"
@@ -148,9 +164,9 @@
               прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img
             class="place__image"
@@ -183,8 +199,10 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        >
+
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img
             class="place__image"
@@ -216,9 +234,10 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
-          <h2 class="place__title">Зимний &nbsp;Байкал</h2>
+        </article>
+
+        <article class="place">
+          <h2 class="place__title">Зимний Байкал</h2>
           <img
             class="place__image"
             src="./images/place-winter-baikal.jpg"
@@ -246,9 +265,9 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img
             class="place__image"
@@ -274,7 +293,7 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">

@@ -44,7 +44,7 @@
 @media (max-width: 360px) {
   .photo-grid {
     margin-top: 64px;
-    max-width: 288px;
+    max-width: 100%;
     margin-left: 16px;
     margin-right: 16px;
     grid-template-columns: repeat(auto-fit, minmax(320px, max-content));

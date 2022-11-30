@@ -10,9 +10,9 @@
   color: #ffffff;
 }
 
-@media (max-width: 785px) {
+@media (max-width: 767px) {
   .cover__title {
-    font-size: calc(32px + (40 * 0.7) * ((90vw - 320px) / (785 - 320)));
+    font-size: calc(32px + (58-32) * ((90vw - 320px) / (767 - 320)));
   }
 }
 

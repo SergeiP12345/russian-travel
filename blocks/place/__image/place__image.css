@@ -14,6 +14,13 @@
     max-width: 440px;
     min-height: 440px;
   }
+
+  @media (max-width: 896px) {
+    .place__image {
+      max-width: 390px;
+      min-height: 390px;
+    }
+  }
 }
 @media (max-width: 768px) {
   .place__image {

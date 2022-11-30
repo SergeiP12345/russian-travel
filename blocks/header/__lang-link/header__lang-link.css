@@ -8,9 +8,13 @@
   line-height: 1.17;
   text-align: right;
   color: #ffffff;
-  text-decoration-line: underline;
+  margin-right: 18px;
 }
 .header__lang-link:last-child {
+  margin-right: 0;
+}
+
+.header__lang-link {
   text-decoration: none;
 }
 
@@ -19,4 +23,12 @@
     font-size: 18px;
     line-height: 1.11;
   }
+}
+
+.header__lang-link_active:focus {
+  text-decoration: underline;
+}
+
+.header__lang-link_active_check {
+  text-decoration: underline;
 }

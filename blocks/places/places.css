@@ -23,8 +23,8 @@
 
 @media (max-width: 360px) {
   .places {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -32,5 +32,7 @@
   .places {
     max-width: 320px;
     margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
