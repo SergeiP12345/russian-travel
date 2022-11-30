@@ -9,10 +9,10 @@
   text-align: right;
   color: #ffffff;
   margin-right: 18px;
-  text-decoration: none;
 }
 .header__lang-link:last-child {
   margin-right: 0;
+  text-decoration: none;
 }
 
 @media (max-width: 320px) {
