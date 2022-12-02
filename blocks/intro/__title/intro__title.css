@@ -2,10 +2,9 @@
   margin: 0;
   padding: 0;
   max-width: 690px;
-  min-height: 58px;
   font-weight: 900;
   font-size: 54px;
-  line-height: 35px;
+  line-height: 58px;
   color: #ffffff;
 }
 
@@ -20,6 +19,6 @@
   .intro__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 35px;
   }
 }
