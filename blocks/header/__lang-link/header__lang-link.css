@@ -21,11 +21,3 @@
     line-height: 1.11;
   }
 }
-
-.header__lang-link_active:focus {
-  text-decoration: underline;
-}
-
-.header__lang-link_active_check:checked {
-  text-decoration: underline;
-}
